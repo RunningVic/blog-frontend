@@ -1,21 +1,17 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Victor's Blog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Algorithm</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Book</a>
-          </li>
-        </ul>
-      </div>
+<nav class="ui inverted segment attached">
+    <div class="ui container"> 
+        <div class="ui inverted menu secondary custom-padding-tb">
+            <h2 class="ui header teal item">Victor's Blog</h2>
+            <a class="item" routerLink="/home"><i class="home icon"></i>Home</a>
+            <a class="item" routerLink="/"><i class="code icon"></i>Algorithm</a>
+            <a class="item" routerLink="/"><i class="book icon"></i>Book</a>
+            <a class="item" routerLink="/home"><i class="info icon"></i>About</a>
+            <div class="right item">
+                <div class="ui icon input inverted transparent">
+                    <input type="text" placeholder="Search">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
+</nav>
