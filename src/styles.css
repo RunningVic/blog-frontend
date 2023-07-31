@@ -3,3 +3,7 @@ html,
 body {
     height: 100%;
 }
+.custom-padding-tb {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}

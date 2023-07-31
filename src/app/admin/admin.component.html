@@ -1,1 +1,63 @@
-<p>admin works!</p>
+<div class="custom-padding-tb">
+    <div class="ui container">
+        <form action="#" class="ui form segment">
+            <div class="fields inline">
+                <div class="field">
+                    <input type="text" name="title" placeholder="Title">
+                </div>
+                <div class="field">
+                    <div class="ui selection dropdown">
+                        <input type="hidden" name="category">
+                        <i class="dropdown icon"></i>
+                        <div class="default text">Category</div>
+                        <div class="menu">
+                            <div class="item" data-value="1">
+                                Algorithm
+                            </div>
+                            <div class="item" data-value="2">
+                                Book
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <button class="ui teal basic button"><i class="search icon"></i>Search</button>
+                </div>
+                <div class="field">
+                    <button class="ui teal basic button">Create Post</button>
+                </div>
+            </div>
+        </form>
+        <table class="ui table celled">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Create Time</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>LC1 Two Sum</td>
+                    <td>Algorithm</td>
+                    <td>2023-07-12</td>
+                    <td>
+                        <a href="#" class="ui mini button teal basic">Edit</a>
+                        <a href="#" class="ui mini button red basic">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="6">
+                    <div class="ui pagination menu">
+                        <a href="#" class="item">Prev</a>
+                        <a href="#" class="item">Next</a>
+                    </div>
+                </th>
+            </tfoot>
+        </table>
+    </div>
+</div>
