@@ -1,0 +1,94 @@
+<div class="ui container custom-padding-tb">
+    <div class="ui grid">
+        <div class="eleven wide column">
+            <div class="ui segment attached top">
+                <div class="ui two column grid">
+                    <div class="column">
+                        <h3 class="ui header teal">Blog</h3>
+                    </div>
+                    <div class="column right aligned">
+                        Total:&nbsp;&nbsp;<h3 class="ui header orange custom-inline-block">14</h3>&nbsp;&nbsp;Posts
+                    </div>
+                </div>
+            </div>
+            <div class="ui attached segment">
+                <!-- segment border will be disappeared if move div to app-blog-card component -->
+                <div class="ui vertical segment" *ngFor="let blog of mock_blogs">
+                    <app-blog-card></app-blog-card>
+                </div>
+            </div>
+            <div class="ui bottom attached segment">
+                <div class="ui two column grid">
+                    <div class="column">
+                        <button class="ui teal basic button">Prev</button>
+                    </div>
+                    <div class="column right aligned">
+                        <button class="ui teal basic button">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="five wide column">
+            <!-- Category -->
+            <div class="ui segments">
+                <div class="ui sencondary segment">
+                    <div class="ui two column grid">
+                        <div class="column">
+                            <i class="idea icon"></i>Category
+                        </div>
+                        <div class="right aligned column">
+                            <a href="">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui segment teal">
+                    <div class="ui fluid vertical menu">
+                        <a href="#" class="item"> Algorithm <div class="ui label teal basic">13</div></a>
+                        <a href="#" class="item"> Book <div class="ui label teal basic">13</div></a>
+                    </div>
+                </div>                
+            </div>
+            <!-- tags -->
+            <div class="ui segments">
+                <div class="ui sencondary segment">
+                    <div class="ui two column grid">
+                        <div class="column">
+                            <i class="tags icon"></i>Tag
+                        </div>
+                        <div class="right aligned column">
+                            <a href="">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui segment teal">
+                    <a href="#" target="_blank" class="ui teal basic left pointing label custom-margin-tb-tiny">Union Find<div class="detail">12</div></a>
+                    <a href="#" target="_blank" class="ui teal basic left pointing label custom-margin-tb-tiny">Hash Table<div class="detail">12</div></a>
+                    <a href="#" target="_blank" class="ui teal basic left pointing label custom-margin-tb-tiny">Dijkstra<div class="detail">12</div></a>
+                    <a href="#" target="_blank" class="ui teal basic left pointing label custom-margin-tb-tiny">Minimum Spanning Tree<div class="detail">12</div></a>
+                    <a href="#" target="_blank" class="ui teal basic left pointing label custom-margin-tb-tiny">Backtrack<div class="detail">12</div></a>
+                </div>                
+            </div>
+            <!-- Most Viewed Post -->
+            <div class="ui segments">
+                <div class="ui sencondary segment">
+                        <i class="thumbs up icon"></i>Most Viewed Post
+                </div>
+                <div class="ui segment">
+                    <a href="#" target="_blank">Placeholder for post</a>
+                </div>
+                <div class="ui segment">
+                    <a href="#" target="_blank">Placeholder for post</a>
+                </div>      
+                <div class="ui segment">
+                    <a href="#" target="_blank">Placeholder for post</a>
+                </div>
+                <div class="ui segment">
+                    <a href="#" target="_blank">Placeholder for post</a>
+                </div>      
+                <div class="ui segment">
+                    <a href="#" target="_blank">Placeholder for post</a>
+                </div>                   
+            </div>
+        </div>
+    </div>
+</div>

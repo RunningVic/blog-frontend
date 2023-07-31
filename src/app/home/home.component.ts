@@ -24,6 +24,12 @@ export class HomeComponent {
       author : "Victor",
       date: "2023-01-01",
       views: 123
+    },
+    {
+      title : "Mock title",
+      author : "Victor",
+      date: "2023-01-01",
+      views: 123
     }
   ]
 }
