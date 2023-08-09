@@ -2,11 +2,6 @@
     display: inline-block !important;
 }
 
-.custom-padding-tb {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
-}
-
 .custom-margin-tb-tiny {
     margin-top: 0.2em !important;
     margin-bottom: 0.2em !important;
